@@ -1,0 +1,233 @@
+html {
+  background-color: rgb(211, 206, 206);
+}
+
+body {
+  margin: 5rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  line-height: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.name {
+  padding-top: 5rem;
+  font-size: 7rem;
+  font-weight: 100;
+}
+
+.name span {
+  padding-top: 5rem;
+  font-weight: 800;
+  font-size: 7rem;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 3rem;
+  margin-left: 3.1rem;
+  margin-right: 3.1rem;
+  text-align: center;
+  background-color: rgb(199, 195, 195);
+}
+
+.title {
+  font-size: 1.3rem;
+  margin-right: 5.7rem;
+  margin-left: 4.5rem;
+}
+
+.minicontainer {
+  display: flex;
+  background-color: rgb(100, 100, 100);
+  color: rgb(239, 237, 237);
+}
+.phone,
+.email {
+  display: flex;
+  gap: 1rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+
+  font-size: 1.1rem;
+}
+/* -------- main -------- */
+.main {
+  display: flex;
+  margin: 3rem;
+  gap: 1rem;
+  align-items: start;
+  width: 90%;
+  border: 2px solid rgb(149, 148, 148);
+}
+.image {
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 2rem;
+}
+
+.topiic {
+  background-color: rgb(199, 195, 195);
+  padding: 2rem;
+}
+
+.topic {
+  padding: 2rem;
+}
+
+.right {
+  background-color: white;
+  width: 40rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+}
+
+.below-topic-B {
+  gap: 3rem;
+}
+
+.topic {
+  border-bottom: 2px solid rgb(129, 129, 129);
+  padding: 10px;
+}
+
+.left {
+  width: 25rem;
+}
+
+.content {
+  line-height: 0.2rem;
+}
+
+.topicB {
+  margin-top: 3rem;
+}
+
+.company {
+  margin-top: 2rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* ====================== Media Queries (Medium Devices) at (1355px) ====================== */
+@media screen and (max-width: 1355px) {
+  .right {
+    font-size: 70%;
+    width: 70%;
+  }
+}
+
+body {
+  padding-right: 1rem;
+}
+
+.name {
+  font-size: 5rem;
+}
+.name span {
+  font-size: 5rem;
+}
+
+/* ====================== Media Queries (Medium Devices) at (1050 px) ====================== */
+@media screen and (max-width: 1050px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-right: 3rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .name span {
+    font-size: 4rem;
+  }
+
+  .right {
+    font-size: 70%;
+    width: 90%;
+    margin: 1rem;
+  }
+
+  .left {
+    font-size: 70%;
+    width: 70%;
+  }
+
+  main {
+    gap: 0;
+  }
+
+  .image {
+    margin-right: 100px;
+  }
+}
+
+/* ====================== Media Queries (Small Devices) ====================== */
+@media screen and (max-width: 880px) {
+  body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .fullname {
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    line-height: 4rem;
+  }
+
+  .minicontainer {
+    gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .phone,
+  .email {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .name span {
+    font-size: 3.5rem;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Stack the sections vertically */
+  }
+  .left {
+    width: 100%;
+    padding-right: 5rem;
+  }
+}
+
+/* ====================== Media Queries (Small Devices) ====================== */
+@media screen and (max-width: 600px) {
+  body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .name span {
+    font-size: 1.5rem;
+  }
+}
